@@ -29,15 +29,15 @@ export function NeutralVideoControls({ renderThumbnail }: NeutralVideoControlsPr
             <ButtonTooltip side="top">
               <PlayButton />
             </ButtonTooltip>
-            <VolumePopover showTooltip side="right" orientation="horizontal" />
-          </$.Controls.Group>
-
-          <$.Controls.Group className={styles.timeSliderGroup}>
-            <$.Time.Group className={timeStyles.group}>
+            <VolumePopover className={styles.volumeButton} showTooltip side="right" orientation="horizontal" />
+            <$.Time.Group className={[timeStyles.group, styles.time]}>
               <$.Time.Value className={timeStyles.toggle} type="current" toggle />
               <$.Time.Separator className={timeStyles.separator} />
               <$.Time.Value className={timeStyles.durationValue} type="duration" />
             </$.Time.Group>
+          </$.Controls.Group>
+
+          <$.Controls.Group className={styles.timeSliderGroup}>
             <TimeSlider previewOverflow="clamp" renderThumbnail={renderThumbnail} />
           </$.Controls.Group>
 
@@ -54,7 +54,7 @@ export function NeutralVideoControls({ renderThumbnail }: NeutralVideoControlsPr
                 <AirPlayButton />
               </ButtonTooltip>
               <ButtonTooltip side="top">
-                <PiPButton />
+                <PiPButton className={styles.pipButton} />
               </ButtonTooltip>
               <ButtonTooltip side="top">
                 <FullscreenButton />
