@@ -1,5 +1,23 @@
 # Changelog
 
+## [10.3.1](https://github.com/videojs/video.js/compare/@videojs/skins@10.3.0...@videojs/skins@10.3.1) (2026-11-04)
+
+
+### Bug Fixes
+
+* **skin:** restore older browser support in the compat skin ([#9699](https://github.com/videojs/video.js/issues/9699)) ([bf503d0](https://github.com/videojs/video.js/commit/bf503d0e2d32e4a147556e2c2168d7c27ad14924))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * devDependencies
+    * @videojs/core bumped to 10.3.1
+    * @videojs/element bumped to 10.3.1
+    * @videojs/icons bumped to 10.3.1
+    * @videojs/installation bumped to 10.3.1
+    * @videojs/utils bumped to 10.3.1
+
 ## [10.3.0](https://github.com/videojs/video.js/compare/@videojs/skins@10.2.0...@videojs/skins@10.3.0) (2026-11-03)
 
 

@@ -1,5 +1,21 @@
 # Changelog
 
+## [10.3.1](https://github.com/videojs/video.js/compare/@videojs/google-analytics@10.3.0...@videojs/google-analytics@10.3.1) (2026-11-04)
+
+
+### Miscellaneous Chores
+
+* **@videojs/google-analytics:** Synchronize videojs versions
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @videojs/core bumped to 10.3.1
+    * @videojs/media bumped to 10.3.1
+    * @videojs/utils bumped to 10.3.1
+
 ## [10.3.0](https://github.com/videojs/video.js/compare/@videojs/google-analytics@10.2.0...@videojs/google-analytics@10.3.0) (2026-11-03)
 
 
