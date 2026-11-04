@@ -2,7 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
-## [@videojs/core@10.3.0] - 2026-11-03
+## [@videojs/core@10.3.1] - 2026-11-04
+
+### 🐛 Bug Fixes
+- *(skin)* Restore older browser support in the compat skin ([#9699](https://github.com/videojs/video.js/pull/9699)) by [@sampotts](https://github.com/sampotts)
+
+### 📚 Documentation
+- *(site)* Add changelog prose for 10.3.0 ([#9697](https://github.com/videojs/video.js/pull/9697)) by [@github-actions[bot]](https://github.com/github-actions[bot])
+- *(site)* Update the privacy notice from the latest legal draft ([#9689](https://github.com/videojs/video.js/pull/9689)) by [@heff](https://github.com/heff)
+
+## [@videojs/core@10.3.0] - 2026-11-04
 
 ### 🚀 Features
 - *(mux-data)* Report framework and engine in the player software name ([#9577](https://github.com/videojs/video.js/pull/9577)) by [@luwes](https://github.com/luwes)
@@ -2449,6 +2458,7 @@ All notable changes to this project will be documented in this file.
 * @decepulis made their first contribution in [#118](https://github.com/videojs/v10/pull/118)
 * @heff made their first contribution
 
+[@videojs/core@10.3.1]: https://github.com/videojs/video.js/compare/@videojs/core@10.3.0...@videojs/core@10.3.1
 [@videojs/core@10.3.0]: https://github.com/videojs/video.js/compare/@videojs/core@10.2.0...@videojs/core@10.3.0
 [@videojs/core@10.2.0]: https://github.com/videojs/video.js/compare/@videojs/core@10.1.0...@videojs/core@10.2.0
 [@videojs/core@10.1.0]: https://github.com/videojs/video.js/compare/@videojs/core@10.0.1...@videojs/core@10.1.0
